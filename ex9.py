@@ -10,6 +10,6 @@ def first_last(sequence):
     return sequence[:1] + sequence[-1:]
 
 
-print(first_last([1,2,3]))
-print(first_last((1,2,3)))
-print(first_last('abc'))
+print(first_last([1,2,3]))  # use list
+print(first_last((1,2,3)))  # use tuple
+print(first_last('abc'))  # use string
