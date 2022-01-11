@@ -14,3 +14,4 @@ def alphabetize_names(list_of_dicts):
 
 
 print(alphabetize_names(PEOPLE))
+print('*'.join('abc'))
